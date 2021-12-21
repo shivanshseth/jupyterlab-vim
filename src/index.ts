@@ -473,7 +473,7 @@ function activateCellVim(app: JupyterFrontEnd, tracker: INotebookTracker): Promi
         });
         commands.addKeyBinding({
             selector: '.jp-Notebook.jp-mod-editMode',
-            keys: ['Escape'],
+            keys: ['J J'],
             command: 'leave-insert-mode'
         });
         commands.addKeyBinding({
